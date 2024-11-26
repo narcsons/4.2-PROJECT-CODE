@@ -1,0 +1,221 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+/* Container for the form */
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: lightblue;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #e6e6fa;
+}
+
+/* Button styling */
+.register-btn,
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover,
+.login-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Container width */
+.form-container {
+    width: 300px;
+}
+
+/* Title */
+h2 {
+    color: #333;
+}
+
+.swiper {
+    width: 75%;
+    height: 450px;
+    margin: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    background-color: #efd4fc;
+    border-radius: 18px;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/* Hover effect for slides */
+.swiper-slide:hover {
+    background: #e5c3f5;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgb(174, 69, 235, 0.8);
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #e84118;
+    transform: scale(1.05);
+}
+
+.question-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.result-text {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 20px;
+}
+
+.category-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+.modal-pass-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-pass-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.modal-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+.modal-form button:hover {
+    background-color: #0056b3;
+}
+
+.modal-form button:active {
+    background-color: #003d80;
+}
+
+.assessment-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-title {
+    font-size: 4.3vh;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    font-synthesis-weight: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
